@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    border:1px solid rgb(225, 225, 225);
+    box-shadow:5px 2px 2px rgb(220, 218, 218);
+    position: fixed;
+    left: 1px;
+    right: 1px;
+    background-color: white;
+
+}
+.left{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.humburger{
+  height:24px;
+  width: 23px;
+ margin-left: 15px;
+ margin-right:1px;
+ cursor: pointer;
+}
+.youtube{
+    height:55px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.middile{
+    flex:1;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.searchbar{
+    font-size: 16px;
+    height: 44px;
+    flex: 1;
+    max-width: 500px;
+    margin-left: 30px;
+    border: 1px solid rgb(203, 201, 201);
+    border-right: none;
+}
+.searchbar::placeholder{
+    font-family: arial;
+}
+.buttonone{
+   height:47px ;
+   margin-left: -39px;
+   margin-right: 20px;
+   width: 55px;
+   border-bottom-right-radius: 10px;
+   border-top-right-radius: 10px;
+   border: solid 1px grey;
+   
+}
+.buttontwo{
+    height: 41px;
+    width: 40px;
+    background-color: rgb(235, 233, 233);
+    border: none;
+    border-radius: 20px;
+}
+.searchicon{
+height: 25px;
+margin-top: 4px;
+}
+.reight{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+}
+.uplode{
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.youtub-apps{
+    height: 30px;
+    margin-left:15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.notification{
+    height:30px;
+    margin-left:15px;
+    margin-right:15px;
+    cursor: pointer;
+}
+.profile{
+    height: 55px;
+    border-radius: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.asaid{
+    display: inline-block;
+    width: 80px;
+    bottom: 0;
+    top:0;
+    left: 0;
+ margin-top:70px;
+ position: fixed;
+ border:1px solid rgb(223, 221, 221);
+ box-shadow: 2px 2px 2px  rgb(223, 221, 221);
+ background-color:white;
+ }
+ .mini-one{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+  a img {
+ height:25px;
+ margin-top: 8px;
+ margin-left: 5px;
+ }
+ .vikram{
+    font-size:12px;
+ }
+ .mini-two{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .mini-three{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .mini-four{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .mini-five{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .mini-six{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ div a{
+    color:black;
+ }
+ .asaid >div:hover{
+     background-color: rgb(222, 230, 230);
+ }
+ 
+ 
